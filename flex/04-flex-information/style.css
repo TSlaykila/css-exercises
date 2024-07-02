@@ -3,6 +3,7 @@ body {
 }
 
 img {
+  align-self: center;
   width: 100px;
   height: 100px;
 }
@@ -23,4 +24,13 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.plants_containers{
+  display:flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.plants_text{
+  display: flex;
+  flex-direction: column;
 }
